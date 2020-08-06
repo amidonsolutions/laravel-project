@@ -22,3 +22,9 @@ get('abuot', function()
     return view('About Page');
 
 });
+
+get('reporting', function()
+{
+
+    return 'Reporting feature';
+});
